@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "bergobrrr",
+  "version": "${version}",
+
+  "name": "BER go brrr",
+  "description": "Adds extended profiler information for block entity renderers",
+  "authors": [
+    "comp500"
+  ],
+  "contact": {
+    "homepage": "haha yes",
+    "sources": "ping me on discord or something idk"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/bergobrrr/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "link.infra.bergobrrr.BERgobrrr"
+    ]
+  },
+  "mixins": [
+    "bergobrrr.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "*"
+  }
+}
